@@ -13,9 +13,19 @@ local humanoid = character:FindFirstChildOfClass("Humanoid")
 Section_cred:NewLabel("anti afk")
 Section_cred:NewButton("copy my github", "", function()
 	setclipboard("https://github.com/Varap228/Water-Park-NEW-Briquatica-script/tree/main")
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Copy",
+	Text = "My github copied to clipboard", 
+	Icon = ""
+})
 end)
 Section_cred:NewButton("copy my pastebin", "", function()
 	setclipboard("https://pastebin.com/8sB6hMVa")
+	game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Copy",
+	Text = "My pastebin copied to clipboard", 
+	Icon = ""
+})
 end)
 function farm_Coins()
 	for i,b in pairs(workspace.Coins:GetChildren()) do
