@@ -11,6 +11,12 @@ local Section_EF = Tab_EF:NewSection("Not my esp Not my fly")
 local character = game.Players.LocalPlayer.Character
 local humanoid = character:FindFirstChildOfClass("Humanoid")
 Section_cred:NewLabel("anti afk")
+Section_cred:NewButton("copy my github", "", function()
+	setclipboard("https://github.com/Varap228/Water-Park-NEW-Briquatica-script/tree/main")
+end)
+Section_cred:NewButton("copy my pastebin", "", function()
+	setclipboard("https://pastebin.com/8sB6hMVa")
+end)
 function farm_Coins()
 	for i,b in pairs(workspace.Coins:GetChildren()) do
 		character.HumanoidRootPart.CFrame = b.CFrame
