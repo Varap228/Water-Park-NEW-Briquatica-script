@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Varap228/Water-Park-NEW-Briquatica-beta-script-/main/Water%20Park%20NEW%20Briquatica.lua?token=GHSAT0AAAAAACAXEWRF6A2JVIGLZOFQNNEEZBK4WEQ"))()
